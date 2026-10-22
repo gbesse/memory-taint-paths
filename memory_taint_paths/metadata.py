@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Propager révocations et contaminations dans les dérivations de mémoires', 'en': 'Propagate revocation and contamination through memory derivations', 'es': 'Propagar revocación y contaminación en derivaciones de memorias'}

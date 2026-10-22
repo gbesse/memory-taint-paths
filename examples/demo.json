@@ -1,0 +1,36 @@
+{
+  "nodes": [
+    {
+      "id": "old",
+      "kind": "source"
+    },
+    {
+      "id": "new",
+      "kind": "source"
+    },
+    {
+      "id": "summary",
+      "kind": "derived",
+      "rules": [
+        [
+          "old"
+        ],
+        [
+          "new"
+        ]
+      ]
+    },
+    {
+      "id": "note",
+      "kind": "derived",
+      "rules": [
+        [
+          "summary"
+        ]
+      ]
+    }
+  ],
+  "revoked": [
+    "old"
+  ]
+}
